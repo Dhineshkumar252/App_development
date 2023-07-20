@@ -1,0 +1,46 @@
+
+
+  .bg-text{
+     margin-left: 50%;
+     margin-right: 20%;
+     padding: 20px;
+     text-align: center;
+  margin-top: ;
+    
+     color: rgb(255, 255, 255);
+     backface-visibility: visible;
+     border: 3px solid white;
+     transform: translate(-50%, 20%);
+    font-weight: bold;
+    font-style: italic;
+ font-size: 20px;
+     width: 50%;
+     /* background-image: url("https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+ 
+  }
+  .bg-image {
+        
+
+        position: absolute;
+        color: rgb(228, 190, 190);
+        /*Note, you can change the color to your choice depending on your 
+        image and what color blends with it*/
+    }
+    
+    .bg-image::after {
+        content: "";
+        filter: blur(12px);
+        -webkit-filter: blur(12px);
+        background: url("https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat fixed top;
+       
+        /* also change the blend mode to what suits you, from darken, to other 
+        many options as you deem fit*/
+        background-size: cover;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: -1;
+        height: 149%;
+    }
