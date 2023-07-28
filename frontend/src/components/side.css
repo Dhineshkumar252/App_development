@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+
+
+
+
+.side{
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+ .side ol li{
+  padding:30px;
+  padding-top: 25px;
+  background-color: #00abf0;
+  margin-top: 3%;
+   border-radius: 8%;
+   margin-right: ;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}    
+
+.side ol li a{
+  color: #000000b2;
+  display: block;
+}
+
+.side ol li a .fas{
+  width: 25px;
+}
+
+.side ol li:hover{
+  background-color:rgba(197, 36, 176, 0.685)
+}
+    
+.side ol li:hover a{
+  color: #f5f2f2;
+}
+ .crud{
+  margin-top: 20%;
+ }
+ .form-title{
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     color: aliceblue;
+     background-color: black;
+ }
+.ico{
+ text-align: center;
+ width: 250px;
+ float: left;
+   height: 70px;
+   background-color: #ffffff;
+   margin-top: -15%;
+ }
+ 
+ .loo{
+   font-weight: bold;
+   text-align: center;
+   color: #00abf0;
+   font-size: 35px;
+   font-family: Arial;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+   margin-top: px
+ }
+ .show{
+  margin-left: 250px;
+  height: 100vh;
+  width: 1883px;
+  background-color: rgba(245, 245, 245, 0.582);
+ }

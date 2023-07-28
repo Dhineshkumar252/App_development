@@ -1,0 +1,250 @@
+
+.main{
+  width: 100%;
+  background-position: center;
+  height: 100vh;
+}  
+.navbar{
+background-color: #00abf0;
+  width: 1678px;
+  height: 75px;
+
+}
+.good{
+margin-left: 0%;
+background-color: #00abf0;
+background-color: #00abf0;
+}
+.hu{
+filter: brightness(800%);
+padding: 10px;
+height: 65px;
+width: 65px;
+}
+.noti{
+filter: brightness(500%);
+padding: 10px;
+
+margin-right: 1%;
+margin-left: 27%;
+height: 68px;
+width: 67px;
+
+}
+.icon{
+text-align: center;
+width: 240px;
+float: left;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+.logo{
+  font-weight: bold;
+  text-align: center;
+  color: #00abf0;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px
+}
+
+.menu{
+width: 500px;
+  float: left;
+  height: 70px;
+  margin-left: 30%;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+list-style: none;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #00ff2a;
+}
+::placeholder{
+  color: #fff;
+  font-family: Arial;
+}
+
+.btnn{
+width: 240px;
+height: 40px;
+background: #00fff2;
+border: none;
+margin-top: px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover{
+  background: #fff;
+  color: #ff7200;
+}
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+  color: #ff7200;
+}
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigationn {
+width: 100%;
+margin-left: 27%;
+background-color: rgba(247, 18, 18, 0.815);
+}
+
+img {
+width: 25px;
+border-radius: px;
+float: left;
+}
+
+.logout {
+font-size: .8em;
+position: center;
+right: 18px;
+bottom: 4px;
+overflow: hidden;
+letter-spacing: 3px;
+opacity: 0;
+transition: opacity .45s;
+-webkit-transition: opacity .35s;
+
+}
+
+.buttonn {
+text-decoration: none;
+float: right;
+padding: 29px;
+
+color: white;
+width: 35px;
+background-color: rgb(189, 22, 22);
+transition: width .45s;
+-webkit-transition: width .35s;
+overflow: hidden
+}
+.buttonn:hover{
+background-color: #13dd01;
+}
+a:hover {
+width: 130px;
+}
+
+a:hover .logout{
+opacity: .9;
+}
+
+a {
+text-decoration: none;
+}
+.dropdownn {
+float: left;
+  overflow: hidden;
+  margin-top: 8px;
+  margin-left: 2%;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdownn .dropbtn {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 26px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdownn-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdownn-content a {
+  float: none;
+  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdownn:hover .dropbtn {
+  
+  color: white;
+  color: #00ff2a;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdownn:hover .dropdownn-content {
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  
+  .topnav.responsive .dropdownn {float: none;}
+  .topnav.responsive .dropdownn-content {position: relative;}
+  .topnav.responsive .dropdownn .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}

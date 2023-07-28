@@ -1,0 +1,122 @@
+/* .feedback-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-container h2 {
+  text-align: center;
+}
+
+.feedback-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.feedback-form label {
+  font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.feedback-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #45a049;
+} */
+.register7 {
+    background: #c9706a;
+    padding: 20px;
+    padding-top: ;
+    width: 500px;
+    height:800px;
+    margin-top: %;
+    margin-left: 800px;
+    border-radius: 5px;
+  }
+  
+  
+  .register7 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register7 form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register7.form-group {
+    margin-bottom: 10px;
+  }
+  
+  .register7 label {
+    font-weight: bold;
+  }
+  
+  .register7 input,
+  .register7 select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .register7 .btn btn-secondary3 {
+    padding: 10px;
+    background-color: #4fa3d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register7 .toast-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .register7 p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .register7 p a {
+    color: rgb(52, 136, 94);
+    text-decoration: none;
+  }
+  .form-control7{
+    width:100px;
+  }
+  .al{
+    background-color: rgb(142, 184, 184);
+    background-size: cover;
+    height: 100vh;
+  }
+  

@@ -1,0 +1,62 @@
+{
+  "boards": [
+    {
+      "name": "Tasks",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+       
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+         
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Study Plan",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+           
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": []
+        },
+        {
+          "name": "Done",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Roadmap",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Now",
+          "tasks": [
+     
+          ]
+        },
+        {
+          "name": "Next",
+          "tasks": []
+        },
+        {
+          "name": "Later",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
